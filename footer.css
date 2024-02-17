@@ -1,0 +1,234 @@
+.cm{
+    font-size: 50px;
+    font-family: 'Aladin', cursive;
+}
+buttonabout{
+    transform: scale(1.05);
+    
+}
+.site-navigation ul,   
+.site-navigation li
+{
+    margin: 0;  
+    padding-right: 15px;  
+    padding-top: 4px;
+    display: flex;
+    justify-content: end;
+    background-color: transparent;
+    font-weight: 900;
+    font-size: 15px;
+    color: #000;
+
+}
+.site-navigation li
+{
+    display: inline-block;  
+    margin: 1.4em 1em 2em 1em;  
+    background-color: transparent;
+    opacity: 0.6s;
+    color: #000;
+
+}
+.site-identity
+{
+    position: absolute; 
+    top: 0px; 
+    /* background: rgba(249, 247, 247, 0.503); */
+    color: rgb(12, 12, 12); 
+    width: 100%;
+
+}
+.logo{
+    
+    position:absolute;
+    top:0;
+    background: rgba(249, 247, 247, 0.503); 
+    width:100%;
+    cursor: pointer;
+    
+}
+a{
+    color: black;
+    cursor: pointer;
+}
+.github{
+    color: white;
+    text-decoration: none;
+}
+.form-type,.message
+{
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3px;
+    width: 75%;
+    height: 100%;
+    background: transparent;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+
+}
+.full{
+    font-weight: bold;
+    font-family: Roboto;
+}
+.submit{
+    margin-left: 192px;
+}
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background:#000;
+    opacity: 0.3;
+}
+.pr{
+    margin-top: 80px;
+}
+.prbtn{
+    margin-bottom: 113px;
+}
+.unbox{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 30px;
+    position: relative;
+ /* transform: skewX(15deg); */
+}
+.uili{
+    position: relative;
+    list-style: none;
+    width: 275px;
+    padding: 20px;
+    background: #3e3f46;
+    transition: 0.5s;
+    z-index: calc(1*var(--i));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+
+}
+.uili:hover{
+    transform: translateX(80px);
+    background: var(--clr);
+}
+.uili::before{
+    content: '';
+    position:absolute;
+    top: 0;
+    right: -40px;
+    width: 70px;
+    height: 100%;
+    background: #3e3f46;
+    filter:brightness(0.7);
+    transform-origin: right;
+    transform: skewY(180deg);
+    transition: 0.5s;
+}
+.uili:hover::before{
+    background: var(--clr);
+    filter: brightness(0.7);
+
+}
+/* .uili::after{
+    content: '';
+    position: absolute;
+    top: -40px;
+    right: 0;
+    width: 100%;
+    height: 40px;
+    background: #3e3f46;
+    filter:brightness(0.9);
+    transform-origin: bottom;
+    transform: skewX(90deg);
+} */
+.uili a{
+    text-decoration: none;
+    color: #999;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+}
+.uili:hover a{
+    color: whitesmoke;
+}
+.uili:last-child::after{
+    box-shadow: -120px 120px 20px rgba(0,0,0,0.25);
+}
+.uili span{
+    position:absolute;
+    top: 0;
+    right: -40px;
+    width: 67px;
+    height: 100%;
+    transform-origin: right;
+    transform: skewY(180deg);
+    display: flex;
+    transition: 0.5s;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+    font-size: 1.25em;
+}
+.uili:hover span{
+    opacity: 1;
+}
+.form .inputbx{
+   margin-bottom: 40px; 
+}
+.form .inputbx input{
+    width: 100%;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: 200;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+.form .inputbx input::placeholder{
+    color: #fff;
+}
+.form .inputbx textarea{
+    width: 100%;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: 200;
+    min-height: 75px;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+.form .inputbx textarea::placeholder{
+    color: #fff;
+}
+.form .inputbx input[type="submit"]{
+    width: 150px;
+    background: #fff;
+    color: #111;
+}
+.tablenew{
+    text-decoration: none;
+    font-size: 15px;
+}
+.nav-link{
+    font-size: 16px;
+}
+.tablenew span{
+    opacity: 0.7;
+}
